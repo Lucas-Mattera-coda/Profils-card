@@ -1,3 +1,40 @@
 body{
-    color: blueviolet;
+    background-color: #303030;
+    color: white;
 }
+
+.photo-profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+    border-style: solid;
+}
+
+article {
+    overflow: hidden;
+    max-width: 600px;
+    min-width: 200px;
+    padding: 50px;
+    border: 5px double #000000;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
+    background: linear-gradient(120deg, #000000, #b4b4b4);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.infos{
+    margin-left: -30px;
+}
+
+.jeux{
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+}
+
